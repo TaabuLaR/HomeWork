@@ -3,7 +3,7 @@
 #include <stack>
 using namespace std;
 
-bool isBalanced(string s)
+bool isRight(string s)
 {
     int i;
     char c;
@@ -35,6 +35,6 @@ bool isBalanced(string s)
 int main() {
     string s;
     getline(cin, s);
-    cout << isBalanced(s);
+    cout << isRight(s);
     return 0;
 }
